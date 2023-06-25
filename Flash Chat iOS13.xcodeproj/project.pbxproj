@@ -24,6 +24,7 @@
 		56FA4B622A46264F0021877F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 56FA4B612A46264F0021877F /* FirebaseFirestoreSwift */; };
 		56FA4B642A46297D0021877F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56FA4B632A46297D0021877F /* GoogleService-Info.plist */; };
 		56FA4B662A481A270021877F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA4B652A481A270021877F /* Constants.swift */; };
+		56FA4B682A481D320021877F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA4B672A481D320021877F /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		0B62819D235F0F4D00E35CAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		56FA4B632A46297D0021877F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		56FA4B652A481A270021877F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		56FA4B672A481D320021877F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Flash Chat iOS13/Message.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		0B628194235DF03A00E35CAF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				56FA4B672A481D320021877F /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				56FA4B662A481A270021877F /* Constants.swift in Sources */,
+				56FA4B682A481D320021877F /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 			);
